@@ -15,7 +15,3 @@ const jsTree = function jsTree(val) {
 jsTree.config = require('./config.js');
 
 module.exports = jsTree;
-
-//Make highlighter settable
-//Make a better presentation of function object --> extract function name, arguments (2 separate repos)
-//Add some tests - split code into testable functions first
