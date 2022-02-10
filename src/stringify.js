@@ -11,7 +11,7 @@ const data = config.data;
  */
 const toString = function toString(val) {
   let str;
-  if (typeof val.toString === 'function') {
+  if (typeof val?.toString === 'function') {
     str = val.toString();
   } else {
     try {
