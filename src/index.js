@@ -4,6 +4,7 @@ const stringify = require('./stringify.js');
 
 /**
  * Generate a HTML presentation of any value
+ * @public
  * @param {*} val - value to present
  * @returns {string} - HTML presentation of value
  */
