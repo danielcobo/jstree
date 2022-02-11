@@ -36,7 +36,7 @@ const open = function open($el) {
       content.name +
       '</div>' +
       '<div>Parameters: ' +
-      params.join('') +
+      params.join(', ') +
       '</div>' +
       [
         '<div>',

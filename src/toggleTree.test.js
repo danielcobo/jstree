@@ -33,8 +33,7 @@ test('function', function () {
 
   const $parent = document.querySelector('div');
   const rgx2 =
-    /<div><div data-jstree-id="[0-9A-z]+" data-jstree-type="function" data-jstree-open="true">function<\/div><div>Name: fu<\/div><div>Parameters: none<\/div><div><div data-jstree-id="[0-9A-z]+" data-jstree-type="functionProps" data-jstree-closed="">Properties<\/div><\/div><\/div>/;
-
+    /<div><div data-jstree-id="[0-9A-z]+" data-jstree-type="function" data-jstree-open="true">function<\/div><div>Name: fu<\/div><div>Parameters: a, b<\/div><div><div data-jstree-id="[0-9A-z]+" data-jstree-type="functionProps" data-jstree-closed="">Properties<\/div><\/div><\/div>/;
   expect(rgx2.test($parent.outerHTML)).toStrictEqual(true);
 });
 
