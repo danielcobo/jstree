@@ -28,7 +28,7 @@ const open = function open($el) {
       '}</div>';
   } else if (type === 'function') {
     let params = getParameters(content);
-    if (params.length) {
+    if (params.length === 0) {
       params = ['none'];
     }
     html =
