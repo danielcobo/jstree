@@ -1,6 +1,6 @@
 {
  "name": "@danielcobo/jstree",
- "version": "1.0.2",
+ "version": "1.0.3",
  "description": "HTML tree for JavaScript values and objects. Useful to emulate dev console, etc.",
  "main": "src/index.js",
  "scripts": {
